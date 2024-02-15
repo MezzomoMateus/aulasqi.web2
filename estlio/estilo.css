@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh; /*vh para utilizar 100% da altura da tela principal*/
+    background-color: rgb(32, 211, 218);
+    display: flex;
+    justify-content: center; /*alinhar na horizontal*/
+    align-items: center; /*alinhar na vertical*/
+}
+
+#corpo{
+    background-color: rgb(109, 172, 226);
+    max-width: 600px; /*maximo de largura*/
+    width: 100%; /*se for menos ou mais ocupa 100%*/
+    padding: 10px; /*espaçamento no container em todas as partes do quadrado*/
+    border-radius: 20px; /*Para arredondar a borda do container*/
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#conteudo-form{
+    display: flex; /*deixar container flexivel*/
+    flex-direction: column; /*fazer a direção ficar em forma de colunas*/
+    gap: 12px; /*Pra dar espaçamento entre os textos*/
+}
+
+form{
+    width: 500px;
+}
+
+fieldset{
+    padding: 10px; /*espaçamento para linha do fieldset*/
+}
+
+label , legend , footer{
+    text-align: center;
+}
